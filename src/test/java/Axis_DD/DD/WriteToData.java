@@ -24,7 +24,7 @@ public class WriteToData {
 	@Test
 	public void fblogin() throws IOException {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\myank\\OneDrive\\Documents\\ManipalQa\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\ManipalQa\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.get("http://www.facebook.com/");

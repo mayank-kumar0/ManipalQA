@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T14:29:27 IST" name="Default suite" finished-at="2024-02-27T14:29:36 IST" duration-ms="8735">
+  <suite started-at="2024-02-28T12:19:26 IST" name="Suite" finished-at="2024-02-28T12:19:38 IST" duration-ms="11719">
     <groups>
     </groups>
-    <test started-at="2024-02-27T14:29:27 IST" name="Default test" finished-at="2024-02-27T14:29:36 IST" duration-ms="8735">
+    <test started-at="2024-02-28T12:19:26 IST" name="Test" finished-at="2024-02-28T12:19:38 IST" duration-ms="11719">
+      <class name="Axis_DD.DD.ReadExcel">
+        <test-method signature="fblogin()[pri:0, instance:Axis_DD.DD.ReadExcel@2ddc9a9f]" started-at="2024-02-28T12:19:27 IST" name="fblogin" finished-at="2024-02-28T12:19:32 IST" duration-ms="5835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogin -->
+      </class> <!-- Axis_DD.DD.ReadExcel -->
       <class name="Axis_DD.DD.WriteToData">
-        <test-method signature="fblogin()[pri:0, instance:Axis_DD.DD.WriteToData@2e385cce]" started-at="2024-02-27T14:29:27 IST" name="fblogin" finished-at="2024-02-27T14:29:36 IST" duration-ms="8682" status="PASS">
+        <test-method signature="fblogin()[pri:0, instance:Axis_DD.DD.WriteToData@6e9175d8]" started-at="2024-02-28T12:19:32 IST" name="fblogin" finished-at="2024-02-28T12:19:38 IST" duration-ms="5839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fblogin -->
       </class> <!-- Axis_DD.DD.WriteToData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

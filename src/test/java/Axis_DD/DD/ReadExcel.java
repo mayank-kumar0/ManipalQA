@@ -2,7 +2,7 @@ package Axis_DD.DD;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
  
@@ -23,7 +23,7 @@ public class ReadExcel {
 	@SuppressWarnings("deprecation")
 	@Test
 	public void fblogin() throws IOException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\myank\\OneDrive\\Documents\\ManipalQa\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\ManipalQa\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com/");
 		driver.manage().window().maximize();
