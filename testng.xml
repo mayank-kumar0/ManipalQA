@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Axis_DD.DD.AppTest"/>
+       <class name="Axis_DD.DD.ReadExcel"/>
+      <class name="Axis_DD.DD.WriteToData"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
